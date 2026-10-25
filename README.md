@@ -2,7 +2,6 @@
 
 End-to-end analysis of an e-commerce order table to find revenue trends, the best product categories, the most valuable customers and customers at risk of churning, finished with a one-page business brief.
 
-Built for **InternCircle - Data Science & AI - Project 03**.
 
 > **Data note:** the data is **simulated** (fixed random seed 42, so results are reproducible). No real customer data is used. The simulation includes a festive-season (Oct-Dec) lift, different order values per category and uneven customer activity, so the findings describe this made-up dataset, not a real company.
 
