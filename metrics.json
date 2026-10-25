@@ -1,0 +1,125 @@
+{
+  "checks": {
+    "rows": 5000,
+    "columns": 5,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "duplicate_order_ids": 0,
+    "date_min": "2025-01-01",
+    "date_max": "2025-12-31",
+    "customers": 400
+  },
+  "total_revenue": 2975831.0,
+  "avg_order_value": 595.2,
+  "best_month": "2025-11",
+  "best_month_revenue": 323295.0,
+  "worst_month": "2025-02",
+  "worst_month_revenue": 186836.0,
+  "best_vs_worst_ratio": 1.73,
+  "biggest_mom_jump": {
+    "month": "2025-08",
+    "pct": 29.7
+  },
+  "biggest_mom_drop": {
+    "month": "2025-02",
+    "pct": -13.3
+  },
+  "q4_share_pct": 30.9,
+  "quarterly_revenue": {
+    "Q1": 612474.0,
+    "Q2": 705128.0,
+    "Q3": 738789.0,
+    "Q4": 919440.0
+  },
+  "weekday_best": "Monday",
+  "weekday_worst": "Saturday",
+  "categories": [
+    {
+      "category": "Electronics",
+      "total": 1360854.4,
+      "average": 912.1,
+      "orders": 1492,
+      "share_pct": 45.7
+    },
+    {
+      "category": "Fashion",
+      "total": 792886.5,
+      "average": 452.8,
+      "orders": 1751,
+      "share_pct": 26.6
+    },
+    {
+      "category": "Home",
+      "total": 642773.0,
+      "average": 621.6,
+      "orders": 1034,
+      "share_pct": 21.6
+    },
+    {
+      "category": "Books",
+      "total": 179316.7,
+      "average": 248.0,
+      "orders": 723,
+      "share_pct": 6.0
+    }
+  ],
+  "top_category": "Electronics",
+  "top10_share_pct": 36.2,
+  "top20_share_pct": 51.5,
+  "customers_for_80pct_revenue": 202,
+  "customers_for_80pct_share_of_base_pct": 50.5,
+  "top10_customer_count": 40,
+  "segments": [
+    {
+      "segment": "Bottom 50%",
+      "customers": 200,
+      "revenue": 604371.8,
+      "avg_orders": 6.0,
+      "revenue_share_pct": 20.3
+    },
+    {
+      "segment": "Middle 40%",
+      "customers": 160,
+      "revenue": 1294348.1,
+      "avg_orders": 12.6,
+      "revenue_share_pct": 43.5
+    },
+    {
+      "segment": "Top 10%",
+      "customers": 40,
+      "revenue": 1077110.7,
+      "avg_orders": 44.5,
+      "revenue_share_pct": 36.2
+    }
+  ],
+  "churn_cutoff_days": 90,
+  "churn_risk_customers": 35,
+  "churn_risk_rate_pct": 8.8,
+  "top10_at_risk_customers": 0,
+  "top10_at_risk_lifetime_spend": 0.0,
+  "churn_risk_by_segment": [
+    {
+      "segment": "Bottom 50%",
+      "customers": 200,
+      "at_risk": 33,
+      "at_risk_spend": 85055.3,
+      "at_risk_pct": 16.5
+    },
+    {
+      "segment": "Middle 40%",
+      "customers": 160,
+      "at_risk": 2,
+      "at_risk_spend": 11253.6,
+      "at_risk_pct": 1.2
+    },
+    {
+      "segment": "Top 10%",
+      "customers": 40,
+      "at_risk": 0,
+      "at_risk_spend": 0.0,
+      "at_risk_pct": 0.0
+    }
+  ],
+  "one_time_buyers": 1,
+  "one_time_buyers_pct": 0.2
+}
